@@ -173,6 +173,11 @@ section {
     text-decoration: none;
 }
 
+.languages {
+    display: flex;
+    gap: 3px;
+}
+
 .languages-lang {
     font-weight: 700;
     transition: 0.5s ease-in-out;
@@ -181,14 +186,6 @@ section {
 
 .languages-lang:hover {
     color: var(--belge-color);
-}
-
-.languages-lang:nth-child(1) {
-    margin-right: 3px;
-}
-
-.languages-lang:last-child {
-    margin-left: 3px;
 }
 
 .lang-active {
